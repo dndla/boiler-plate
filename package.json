@@ -1,0 +1,23 @@
+{
+  "name": "boiler-plate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dndla/boiler-plate.git"
+  },
+  "author": "wooim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dndla/boiler-plate/issues"
+  },
+  "homepage": "https://github.com/dndla/boiler-plate#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
