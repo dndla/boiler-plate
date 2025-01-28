@@ -1,5 +1,12 @@
 # boiler-plate
+web에서 반복적으로 사용하는 기능들 모음집
 
-`Johj Ahn` 님의 인프런 강의를 들으며 노드, 리액트를 실습하는 폴더입니다.   
+## 설치
+cd your-project/client
+npm install
 
-https://www.inflearn.com/course/따라하며-배우는-노드-리액트-기본/dashboard
+## 실행
+npm install dev
+
+## 참고
+- https://github.com/jaewonhimnae/boiler-plate-ko

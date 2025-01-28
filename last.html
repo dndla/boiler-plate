@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+</body>
+</html>
+<script>
+    let arr_ret = [];
+    let hap = function(){
+        let len = arguments.length-1;
+        arr_ret.push( arguments[len] );
+    }
+    
+    hap(3,6,3,8,5,1);
+    hap(4,8,5,12,8,45);
+
+    document.write(arr_ret);
+    //console.log([hap]);
+</script>
