@@ -7,7 +7,7 @@ import {
 
 import LandingPage from './components/views/LandingPage/LandingPage'
 import LoginPage from './components/views/LoginPage/LoginPage';
-import RegisterPage from './components/views/RegisterPage/RegisterPage';
+import SignUp from './components/views/SignUp/SignUp';
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
       <Routes>
         <Route  path="/" element={<LandingPage />} />
         <Route  path="/login" element={<LoginPage />} />
-        <Route  path="/register" element={<RegisterPage />} />
+        <Route  path="/signUp" element={<SignUp />} />
       </Routes>
     </div>
   </Router>
